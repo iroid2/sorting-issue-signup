@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(https://w0.peakpx.com/wallpaper/41/600/HD-wallpaper-connectivity-digital-blue-abstract-background-android-technology.jpg);
+  background-size: cover;
+}
+body .register-container {
+  width: 80%;
+  padding: 3rem;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.607);
+  margin: 0 auto;
+  border-radius: 7px;
+  display: flex;
+  color: white;
+}
+body .register-container .left-reg {
+  width: 34%;
+}
+body .register-container .left-reg h1 {
+  font-size: 2rem;
+}
+body .register-container .right-reg {
+  width: 66%;
+  background-color: white;
+  color: black;
+  padding: 1rem 3rem;
+  display: flex;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+body .register-container .right-reg input {
+  width: 60%;
+  padding: 0.5rem;
+}
+body .register-container .right-reg button {
+  font-weight: bolder;
+  width: 20%;
+  padding: 1rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

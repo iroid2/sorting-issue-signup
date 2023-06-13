@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(https://w0.peakpx.com/wallpaper/41/600/HD-wallpaper-connectivity-digital-blue-abstract-background-android-technology.jpg);
+  background-size: cover;
+}
+body .login-container {
+  width: 30%;
+  height: 70%;
+  padding: 1rem;
+  opacity: 0.9;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.607);
+  position: relative;
+  color: white;
+}
+body .login-container .header {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .login-container .header img {
+  border-radius: 50%;
+  width: 30%;
+}
+body .login-container form {
+  width: 100%;
+  padding: 1rem;
+}
+body .login-container form input {
+  width: 90%;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 2px solid white;
+}/*# sourceMappingURL=style.css.map */
